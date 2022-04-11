@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.topbar
+{
+	display:flex ;
+	box-shadow: 2px 2px 2px lightgray;
+	padding-bottom: 1.5%;
+
+}
+
+.icon1{
+	font-size: 120%;
+	margin-left: 1%;
+    margin-top: 2.5% ;
+	flex: 1;
+
+}
+#icon-1-fa:hover{
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.topicons{
+
+	 margin-top:1.5% ;
+	 flex: 1 ;
+	 align-items:center ;
+	 justify-content: center;
+	 margin-left:3% ;
+	 display: flex;
+
+}
+.topicons #topicon{
+ margin-left: 6%;
+ font-size: 110%;
+}
+.topicons #topicon:hover{
+	font-size: 130%;
+	cursor: pointer;
+}
+
+.toplists{
+ 
+ flex: 6;
+ justify-content: center;
+ align-items:center ;
+
+}
+
+
+.toplists ul{
+margin-left: 13%;
+margin-top: 2.5%;
+margin-right: 0;
+display: flex;
+align-content: center;
+
+}
+
+.toplists ul li {
+
+	 font-size: 150%;
+	 margin-right: 8%;
+	 margin-left: 0%;
+	 justify-content: center;
+	 align-items: center;
+	 list-style: none;
+	 align-content: center ;
+	 text-decoration: none;
+	 padding-left: 2%;
+	 padding-right: 2%;
+	 padding-bottom: 1%;
+	 padding-top: 1%;
+
+ }
+
+.link{
+ 
+ text-decoration: none;
+ color: black;
+
+}
+
+.toplists ul li:hover {
+	cursor: pointer;
+	background: rgba(0, 100, 200, .6);
+	border-radius: 4px;
+}
+
+.logo{
+    
+    flex: 1;
+    display: flex;
+    margin-right: 0;
+    margin-left: 5%;
+    margin-right: 0;
+
+}
+
+.logo1{
+	margin-top: 0%;
+	margin-left: 15%;
+}
+.logo1:hover{
+	box-shadow: 2px 2px 2px lightgray , 2px -2px 2px lightgray , -2px 2px 2px lightgray , -2px -2px 2px lightgray ;
+	cursor: pointer;
+}
