@@ -1,0 +1,47 @@
+.para2{
+	display: flex;
+	margin: 0;
+}
+.para2body{
+	padding: 0;
+	flex: 1;
+	background-color: lightcyan;
+	color: black;
+	margin-top: 0%;
+	margin-right: 3%;
+	margin-left: 1%;
+	margin-bottom: 5%;
+	border-radius: 16px;
+
+}
+
+.para2body p{
+	font-size: 125%;
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+.para2body h1{
+	font-size: 180%;
+	margin-top: 12%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.para2img{
+    
+	flex: 1;
+	margin-left: 2%;
+}
+.paraimg-2{
+	margin-top: 1%;
+	margin-left: 8%;
+	border-radius: 5px;
+	box-shadow: 2px 2px 8px lightgray , -2px 2px 8px lightgray ,2px -2px 8px lightgray , -2px -2px 8px lightgray ;
+}
+.para2body i{
+ margin-left: 1%;
+}
+.para2body i{
+	cursor: pointer;
+}

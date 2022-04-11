@@ -1,0 +1,37 @@
+.submenu1 , .submenu2{
+
+	display: none;
+}
+.sublist1 , .sublist2{
+
+justify-content: center;
+padding-left: 0;
+font-size: 50%;
+
+}
+.sublistitems1 , .sublistitems2{
+width: 90%;
+margin-top: 2%;
+margin-bottom: 1%;
+font-size: 50%;
+list-style: none;
+
+}
+
+.sublistitems1:hover , .sublistitems2:hover{
+
+	cursor: pointer;
+}
+.mainlistitems:hover .submenu1{
+	display: none;
+}
+.mainlistitems:hover .submenu2{
+	display: none;
+}
+.line{
+margin-top: 1%;
+width: 100%;
+height: 0.1%;
+background-color:rgba(255, 255, 255, 0.5) ;
+
+}
